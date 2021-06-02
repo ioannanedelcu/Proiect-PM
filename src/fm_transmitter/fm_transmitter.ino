@@ -32,7 +32,7 @@ void tunning_read(){
    channel=mapping_reading + mapping_reading_dec / 10;
    current_reading = mapping_reading;
    current_reading_dec = mapping_reading_dec;
-   //fmtx_set_freq(channel);
+   fmtx_set_freq(channel);
    Serial.print(channel);
 }
 
